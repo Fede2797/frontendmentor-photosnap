@@ -9,7 +9,7 @@ const stories = [
 
 export const Stories = () => {
   return (
-    <div className="flex flex-col w-full">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full">
         {
             stories.map( (story, index) => (
                 <article key={index} className={`relative flex flex-col w-full h-[375px] px-[33px] justify-end pb-10 bg-[url(stories/desktop/${story.image})] bg-no-repeat bg-cover bg-center`}>
