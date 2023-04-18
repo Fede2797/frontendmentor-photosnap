@@ -5,6 +5,8 @@ export default {
     extend: {
       colors: {
         // Gradient: bg-gradient-to-tr from-[#FFC593] via-[#BC7198] to-[#5A77FF]
+        'initial-grey': 'rgba(0, 0, 0, 0.0001)',
+        'end-grey': 'rgba(0, 0, 0, 0.6612)',
         'light-grey': '#DFDFDF',
       },
       fontFamily: {

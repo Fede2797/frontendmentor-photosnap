@@ -1,5 +1,5 @@
-import { SectionsMenu } from "./components/SectionsMenu"
-import { BlackButton } from "../components/BlackButton"
+import { SectionsMenu } from "./SectionsMenu"
+import { BlackButton } from "../../components/BlackButton"
 
 export const Navbar = () => {
     
