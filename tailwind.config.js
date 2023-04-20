@@ -31,6 +31,8 @@ export default {
         'trip-to-nowhere': 'url(stories/desktop/trip-to-nowhere.jpg)',
         'unforeseen-corners': 'url(stories/desktop/unforeseen-corners.jpg)',
         'world-tour': 'url(stories/desktop/world-tour.jpg)',
+        // Beta CTA image
+        'beta-cta': 'url(shared/desktop/bg-beta.jpg)',
       }
     },
   },

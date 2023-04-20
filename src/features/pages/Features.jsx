@@ -1,6 +1,6 @@
 import { MainLayout } from '../../layout/MainLayout'
-import { MainSection } from '../components/MainSection'
-import { HeroSection } from '../components/HeroSection'
+import { BetaCTA } from '../../components/BetaCTA'
+import { HeroSection, MainSection } from '../components'
 
 export const Features = () => {
   return (
@@ -16,6 +16,10 @@ export const Features = () => {
                 <MainSection />
             </section>
 
+            {/* Beta invite */}
+            <section>
+              <BetaCTA />
+            </section>
         </div>
     </MainLayout>
   )
