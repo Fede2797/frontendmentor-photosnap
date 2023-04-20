@@ -13,13 +13,14 @@ export default {
         'dm-sans': 'DM Sans',
       },
       backgroundImage: {
+        // Desktop images
         '18-days-voyage': 'url(stories/desktop/18-days-voyage.jpg)',
         'architecturals': 'url(stories/desktop/architecturals.jpg)',
         'behind-the-waves': 'url(stories/desktop/behind-the-waves.jpg)',
         'calm-waters': 'url(stories/desktop/calm-waters.jpg)',
         'cityscapes': 'url(stories/desktop/cityscapes.jpg)',
         'dark-forest': 'url(stories/desktop/dark-forest.jpg)',
-        'king-of-africa': 'url(stories/desktop/king-of-africa.jpg)',
+        'king-on-africa': 'url(stories/desktop/king-on-africa.jpg)',
         'land-of-dreams': 'url(stories/desktop/land-of-dreams.jpg)',
         'milky-way': 'url(stories/desktop/milky-way.jpg)',
         'moon-of-appalacia': 'url(stories/desktop/moon-of-appalacia.jpg)',
@@ -29,10 +30,9 @@ export default {
         'somwarpet': 'url(stories/desktop/somwarpet.jpg)',
         'trip-to-nowhere': 'url(stories/desktop/trip-to-nowhere.jpg)',
         'unforeseen-corners': 'url(stories/desktop/unforeseen-corners.jpg)',
-        'wordl-tour': 'url(stories/desktop/wordl-tour.jpg)',
+        'world-tour': 'url(stories/desktop/world-tour.jpg)',
       }
     },
   },
   plugins: [],
 }
-
