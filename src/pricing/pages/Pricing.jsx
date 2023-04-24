@@ -1,7 +1,6 @@
 import { MainLayout } from '../../layout/MainLayout'
 import { BetaCTA } from '../../components/BetaCTA'
-import { HeroSection } from '../components'
-import { Subscriptions } from '../components/Subscriptions'
+import { HeroSection, Subscriptions } from '../components'
 
 export const Pricing = () => {
   return (
