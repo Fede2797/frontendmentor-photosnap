@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { ArrowButtonWhite } from "../../components/ArrowButtonWhite"
 
 export const Footer = () => {
@@ -17,10 +18,10 @@ export const Footer = () => {
                             </div>
                             {/* Horizontal sections */}
                             <div className="hidden md:flex justify-between gap-[26px] lg:hidden">
-                                <h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Home</h4>
-                                <h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Stories</h4>
-                                <h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Features</h4>
-                                <h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Pricing</h4>
+                                <Link to="/"><h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Home</h4></Link>
+                                <Link to="/stories"><h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Stories</h4></Link>
+                                <Link to="/features"><h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Features</h4></Link>
+                                <Link to="/pricing"><h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Pricing</h4></Link>
                             </div>
                         </div>
                         {/* Social networks */}
@@ -34,10 +35,10 @@ export const Footer = () => {
                     </div>
                     {/* Vertical sections */}
                     <div className="flex flex-col gap-5 mt-12 text-center md:hidden lg:mt-0 lg:flex lg:text-left lg:ml-[20%] lg:justify-between lg:gap-0">
-                        <h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Home</h4>
-                        <h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Stories</h4>
-                        <h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Features</h4>
-                        <h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Pricing</h4>
+                        <Link to="/"><h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Home</h4></Link>
+                        <Link to="/stories"><h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Stories</h4></Link>
+                        <Link to="/features"><h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Features</h4></Link>
+                        <Link to="/pricing"><h4 className="font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase hover:cursor-pointer">Pricing</h4></Link>
                     </div>
                 </div>
                 {/* CTA and Copy */}

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { ArrowButtonBlack } from "../../components/ArrowButtonBlack"
 import { ArrowButtonWhite } from "../../components/ArrowButtonWhite"
 import { HorizontalColorfulRectangle } from "../../layout/components/HorizontalColorfulRectangle"
@@ -47,7 +48,9 @@ export const MainSection = () => {
                     We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.
                 </p>
                 <ArrowButtonBlack>
-                    View the stories
+                    <Link to="/stories"> 
+                        View the stories
+                    </Link>
                 </ArrowButtonBlack>
             </div>
         </article>
@@ -62,7 +65,9 @@ export const MainSection = () => {
                     Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it. 
                 </p>
                 <ArrowButtonBlack>
-                    View the stories
+                    <Link to="/stories"> 
+                        View the stories
+                    </Link>
                 </ArrowButtonBlack>
             </div>
         </article>

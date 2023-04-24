@@ -7,6 +7,7 @@ export const CompareLarge = () => {
         <h1 className="md:mb-16 lg:mb-14 font-bold font-dm-sans text-[40px] leading-[48px] tracking-[4.17px] uppercase text-center">Compare</h1>
 
         <table className="w-full">
+            <tbody>
             <tr>
                 <th className="pb-[23px] text-left border-b-[1px] border-black">
                     <h4 className="pl-6 font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase">
@@ -30,9 +31,8 @@ export const CompareLarge = () => {
                 </th>
             </tr>
             {
-                features.map( (feature, index) => (
-                    <>
-                    <tr className="border-b-[1px] border-[#DFDFDF]">
+                features.map( (feature, index) => (    
+                    <tr key={index} className="border-b-[1px] border-[#DFDFDF]">
                         <td className="pt-[23px] w-2/5 pb-5">
                             <h4 className="pl-6 font-bold font-dm-sans text-xs leading-[16px] tracking-[2px] uppercase">
                                 {feature.title}
@@ -68,10 +68,10 @@ export const CompareLarge = () => {
                                 : ''
                             }
                         </td>
-                    </tr>
-                    </>
+                    </tr>        
                 ))
             }
+            </tbody>
         </table>
     </div>
   )

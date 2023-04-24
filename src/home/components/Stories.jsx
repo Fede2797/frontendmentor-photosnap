@@ -1,5 +1,4 @@
 import { ArrowButtonWide } from "../../components/ArrowButtonWide";
-import { HorizontalColorfulRectangle } from "../../layout/components/HorizontalColorfulRectangle";
 
 const stories = [
     { image: 'bg-mountains', title: 'The Mountains', author: 'John Appleseed' },

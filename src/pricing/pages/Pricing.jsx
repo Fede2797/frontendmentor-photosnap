@@ -16,11 +16,6 @@ export const Pricing = () => {
                 <Subscriptions />
             </section>
 
-            {/* Compare chart */}
-            <section>
-                
-            </section>
-
             {/* Beta invite */}
             <section>
               <BetaCTA />
