@@ -2,6 +2,8 @@ import { SectionsMenu } from "./SectionsMenu"
 import { BlackButton } from "../../components/BlackButton"
 import { useState } from "react"
 import { MenuButton } from "./MenuButton";
+import { MobileMenu } from "./MobileMenu";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
 
@@ -12,10 +14,12 @@ export const Navbar = () => {
     }
     
     return (
-        <nav className='relative flex w-full max-w-[1440px] h-[72px] px-6 items-center justify-between md:px-10 md:mx-auto'>
+        <nav className='fixed flex w-full h-[72px] px-6 mt-[-72px] items-center justify-between shadow-sm bg-white md:px-10 md:mx-auto z-[999]'>
             {/* Logo & Name */}
             <div className="hover:cursor-pointer">
-                <img src="shared/desktop/logo.svg" aria-label="photosnap logo" />
+                <Link to="/">
+                    <img src="shared/desktop/logo.svg" aria-label="photosnap logo" />
+                </Link>
             </div>
 
             {/* Menus */}
@@ -31,29 +35,8 @@ export const Navbar = () => {
             {/* Menu button*/}
             <MenuButton showMenu={showMenu} toggleMenu={toggleMenu} />
             
-            
             {/* Mobile menu shown */}
-            {
-                ( showMenu ) 
-                    ? (
-                        <div className="absolute flex flex-col w-full gap-5 top-[71px] left-0 right-0 p-8 mb-5 bg-white text-center">
-
-                            {/* Menus */}
-                            <span className="font-bold font-dm-sans text-[15px] leading-[20px] tracking-[2.5px] uppercase">Stories</span>
-                            <span className="font-bold font-dm-sans text-[15px] leading-[20px] tracking-[2.5px] uppercase">Features</span>
-                            <span className="font-bold font-dm-sans text-[15px] leading-[20px] tracking-[2.5px] uppercase">Pricing</span>
-
-                            {/* Separator */}
-                            <hr className="border-black border-opacity-25"/>
-
-                            {/* CTA Button */}
-                            <button className="w-full min-w-[158px] px-6 py-3 bg-black text-white font-dm-sans font-bold text-[15px] text-center tracking-[2.5px] uppercase hover:bg-light-grey hover:text-black">
-                                Get an invite
-                            </button>
-                            {/* Shadow */}
-                        </div> )
-                    : ('')
-            }
+            <MobileMenu showMenu={showMenu} />
         </nav>
     )
 }
