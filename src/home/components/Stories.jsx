@@ -13,11 +13,16 @@ export const Stories = () => {
         {
             stories.map( (story, index) => (
                 <article key={index} className="relative group lg:hover:translate-y-[-24px] duration-200">
-                    <div className={`relative flex flex-col w-full h-[375px] px-[33px] justify-end pb-10 ${story.image} bg-no-repeat bg-cover bg-center`}>
-                        <div className='image absolute w-full h-[375px] top-0 left-0 bg-gradient-to-b from-initial-grey to-end-grey opacity-100 z-10'></div>
+                    {/* Container with bg-image */}
+                    <div className={`relative flex flex-col w-full h-[375px] px-[33px] justify-end pb-10 ${story.image} bg-no-repeat bg-cover bg-center md:h-[500px]`}>
+                        {/* Shadow of the image */}
+                        <div className='image absolute w-full h-[375px] top-0 left-0 bg-gradient-to-b from-initial-grey to-end-grey opacity-100 z-10 md:h-[500px]'></div>
+                        {/* Title of the story */}
                         <h3 className="font-bold font-dm-sans text-lg text-white leading-[25px] pb-1 z-20">{story.title}</h3>
+                        {/* Author of the story */}
                         <span className='font-dm-sans text-[13px] text-white z-20'>by {story.author}</span>
                         <hr className='w-full bg-white opacity-25 mt-4 mb-5 z-20'/>
+                        {/* Read story Button */}
                         <ArrowButtonWide extraStyle={'z-10'}>Read Story</ArrowButtonWide>
                     </div>
                     {/* Colorful rectangle on hover */}

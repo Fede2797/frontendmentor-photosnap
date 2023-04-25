@@ -5,7 +5,7 @@ import { CompareLarge } from "./CompareLarge";
 
 export const Subscriptions = () => {
 
-    const [yearlyPlan, setYearlyPlan] = useState(true);
+    const [yearlyPlan, setYearlyPlan] = useState(false);
 
   return (
     <div className="flex flex-col">

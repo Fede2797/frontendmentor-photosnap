@@ -26,7 +26,7 @@ export const MobileMenu = ({showMenu}) => {
                         </button>
                     </div>
                     {/* Shadow */}
-                    <div className="absolute bg-black opacity-50 top-[323px] left-0 right-0 h-screen"></div>
+                    <div className="absolute bg-black opacity-50 top-[335px] left-0 right-0 h-screen"></div>
                 </> )
             : ('')
         }

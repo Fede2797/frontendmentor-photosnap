@@ -15,9 +15,14 @@ export const BetaCTA = () => {
         </div>
 
         <div className="flex flex-col w-full py-16 px-8 md:flex-row md:justify-between xl:mx-[165px]">
-          <h1 className="mb-[24px] font-bold font-dm-sans text-[32px] leading-[40px] tracking-[3.33px] uppercase md:text-[40px] md:tracking-[4.17px] md:leading-[48px] md:max-w-[464px] md:m-0">
-            We’re in beta. Get your invite today!
-          </h1>
+          <div className="flex flex-col">
+            <h1 className="font-bold font-dm-sans text-[32px] leading-[40px] tracking-[3.33px] uppercase md:text-[40px] md:tracking-[4.17px] md:leading-[48px] md:max-w-[464px] md:m-0">
+              We’re in beta.
+            </h1>
+            <h1 className="mb-[24px] font-bold font-dm-sans text-[32px] leading-[40px] tracking-[3.33px] uppercase md:text-[40px] md:tracking-[4.17px] md:leading-[48px] md:max-w-[464px] md:m-0">
+              Get your invite today!
+            </h1>
+          </div>
           <div className="md:flex md:items-center">
             <ArrowButtonWhite>
               Get an invite

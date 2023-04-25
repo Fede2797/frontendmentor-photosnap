@@ -4,7 +4,7 @@ export const MobileFirstStory = () => {
   return (
     <div className='flex flex-col w-full justify-center md:hidden'>
         {/* Image of the article */}
-        <div className='relative h-[375px]'>
+        <div className='h-[375px]'>
             <img className='h-full w-full object-cover' src="stories/mobile/moon-of-appalacia.jpg" alt="" />
         </div>
         {/* Description of the article */}
