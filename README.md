@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Final version of the website](https://user-images.githubusercontent.com/91157539/234672179-a67e91e6-7c4c-4b1d-9965-41ad6664a54f.png)
+![Final version of the website](https://user-images.githubusercontent.com/91157539/234673325-7186a21e-01c4-4723-999c-417abc86ca1b.png)
 
 ### Links
 
