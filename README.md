@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Final version of the website](https://github.com/Fede2797/frontendmentor-photosnap/final-product/photosnap-final-version.png)
+![Final version of the website](https://user-images.githubusercontent.com/91157539/234672179-a67e91e6-7c4c-4b1d-9965-41ad6664a54f.png)
 
 ### Links
 
